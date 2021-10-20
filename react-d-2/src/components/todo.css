@@ -1,0 +1,32 @@
+.message {
+    width:400px;
+    height:30px;
+    border-radius: 5px;
+    background-color:rgb(236, 236, 236);
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom : 5px;
+
+}
+
+.inputMessage {
+ width:350px;
+ height:30px;
+ border-radius:5px;
+ border-style: hidden;
+ background-color:rgb(236, 236, 236);
+ font-size: 25px;
+ color:rgb(0, 226, 0);
+ display : fixed;
+
+}
+.sendMessage {
+    width:40px;
+    height:30px;
+    color:black;
+    font-size: 25px;
+    margin-left: 2px;
+    border-radius: 5px;
+    border-style : hidden;
+}

@@ -1,4 +1,5 @@
 import {useState} from "react";
+import "./todo.css";
 
 function Todo() {
     const [text, setText] = useState("");
@@ -13,10 +14,10 @@ function Todo() {
     return (
         <div>
            { todo.map(e => 
-                <div>{e} </div>
+                <div className = "message">{e} </div>
             )}
-            <input onChange = {handletext} value = {text} placeholder = "Enter the text" />
-            <button onClick  = {handleTodos}>ADD Todo</button>
+            <input className = "inputMessage" onChange = {handletext} value = {text} placeholder = "Enter the text" />
+            <button className = "sendMessage" onClick  = {handleTodos}>+</button>
         </div>
     );
 }
